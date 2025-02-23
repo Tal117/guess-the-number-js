@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(249, 241, 241);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h1{
+    color: #f10000;
+}
+
+#gameStart {
+    height: 400px;
+    background-image: url(https://i0.wp.com/cms.babbel.news/wp-content/uploads/2022/05/Spanish_UpsideDown_Punctuation.png);
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    margin-bottom: 80px;
+}
+
+
+#game-content{
+    width: 900px;
+    background-color:rgba(48, 42, 43, 0.8) ;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 100px auto;
+    position: relative;
+    top: 30px;
+}
+
+#game-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+#game-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300px;
+    margin-bottom: 32px;
+}
+
+
+#controls{
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+input, button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    background-color: #ca2270;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+#userGuess{
+background-color: rgb(226, 240, 226);
+width: 220px;
+
+}
+
+#startgame {
+    background-color: rgb(207, 4, 4);
+    width: 150px;
+    border: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family:Oleo Script, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#submitGuess{
+    background-color: rgb(32, 112, 0);
+    width: 150px;
+    padding: 20px;
+    border: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family:Oleo Script, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#restartGame{
+    background-color: rgb(196, 24, 24);
+    color: white;
+    width: 150px;
+    border: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Oleo Script, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+#feedbackMessage{
+    color: rgb(241, 14, 14);
+    
+}
+
+#guessCountMessage{
+color: rgb(20, 0, 0);
+}
